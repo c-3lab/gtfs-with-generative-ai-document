@@ -1,0 +1,20 @@
+#情報 を使って、GTFSが持つ項目の1つであるfeed_info.txtを #制約 に従って作成してください
+
+#制約: """
+* 日本語で作成してください
+* feed_info.txtのみを出力してください
+* 以下のカラムは必ず含めて作成してください
+  * feed_publisher_name
+    * 部や課は含めないでください
+  * feed_publisher_url
+  * feed_lang
+    * `ja` としてください
+  * feed_start_date
+  * feed_end_date
+"""
+
+#情報: """
+
+<< 情報抽出プロセスにて得られたアウトプット >>
+
+"""

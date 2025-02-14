@@ -1,0 +1,51 @@
+あなたは 【General Transit Feed Specification (GTFS) 作成の専門家】です
+#情報 を使って、GTFSが持つ項目の1つであるtrips.txtを #制約 に従って作成してください
+
+#制約: """
+* 日本語で作成してください
+* trips.txtのみを出力してください
+* 以下のカラムは必ず含めて作成してください
+  * route_id
+    * #reoutes と整合性をとってください
+  * service_id
+    * #calendar と #calendar_dates と整合性をとってください
+  * trip_id
+    * 主キーです
+    * #stop_times の `trip_id` と整合性をとってください
+  * direction_id
+    * 空欄としてください
+  * block_id
+    * 空欄としてください
+  * shape_id
+    * shapes_ + `route_id` + 任意の数字 としてください
+"""
+
+#情報: """
+
+<< 情報抽出プロセスにて得られたアウトプット >>
+
+"""
+
+#routes: """
+
+<< routes(路線)作成プロセスにて得られたアウトプット >>
+
+"""
+
+#stop_times: """
+
+<< stop_times(停留所)作成プロセスにて得られたアウトプット >>
+
+"""
+
+#calendar: """
+
+<< calendar(運行日)作成プロセスにて得られたアウトプット >>
+
+"""
+
+#calendar_dates: """
+
+<< calendar_dates.txtのデータ >>
+
+"""

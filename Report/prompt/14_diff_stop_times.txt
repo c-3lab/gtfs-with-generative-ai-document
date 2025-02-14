@@ -1,0 +1,26 @@
+添付のGTFSファイルを活用して #手順 に従って時刻表を作成してください
+#手順 を一つ終えるごとに進捗を出力してください
+
+#手順: """
+
+* `previous_stop_times.csv` と `stop_times.csv` を比較して差分を特定してください
+* `previous_stops.csv`, `previous_stop_times.csv`, `previous_routes.csv`, `previous_trips.csv` を使って、特定した差分の時刻表を #例 に従ってMarkDown形式で出力してください
+
+"""
+
+#例: """
+
+<route_id>
+| 時 | 分 |
+|----|----|
+| 9 | 10 45 |
+| 10 | |
+| 11 | |
+| 12 | 20 |
+| 13 | |
+| 14 | |
+| 15 | |
+| 16 | |
+| 17 | 30 |
+
+"""
